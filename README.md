@@ -1,44 +1,108 @@
 # AIGM Standard
 
-The AIGM Standard repository packages the canonical governance specification,
-companion policies, and example assets for organizations adopting AIGM v2.4.3.
-Use this repository as the source of truth for the shell-style spec and for
-human-facing documentation that explains how to work with the standard.
+A lightweight, human-readable governance and collaboration model
+for teams, individuals, and AI-assisted systems.
 
-## At a Glance
-- **Current version:** 2.4.3
-- **Canonical spec:** `spec/core.aigm.sh`
-- **Version deltas:** `versions/2.4.3.sh`
-- **Public docs:** `docs/`
-- **Examples:** `examples/`
+---
+
+## PrimeSL – Primary Standard Layer (Top-Level Values)
+
+Everything in AIGM must follow three priorities, in this order:
+
+1. **Truth first** – decisions must align with reality, evidence and honesty.  
+2. **Freedom of consent** – participation must be voluntary; opt-in and opt-out must always exist.  
+3. **Respect for the Creator and nature** – systems may not destroy the environment or the humans they depend on.
+
+Anything untruthful, forced or destructive is **invalid under AIGM**.
+
+---
+
+## AIGM Core – What the Standard Is
+
+AIGM Core defines how responsibility, skill, trust and decision-making scale.
+
+It exists to:
+- make collaboration efficient,
+- reward real skill instead of titles,
+- maintain discipline without bureaucracy,
+- prevent drift into politics, favoritism or chaos.
+
+It is **not** a political movement, not a religion, not an elite club, and not an unreadable technical document.
+
+It is practical by design.
+
+---
+
+## Tier Hierarchy (Human View)
+
+- **Tier-∞** – Origin / standard creator.  
+- **Tier-1337** – Standard definers & maintainers (3 votes can remove a peer).  
+- **Tier-1** – Lead executors (require 3×1337 approval).  
+- **Tier-2** – Practical solvers (execute tasks, generate merit).  
+- **Tier-3** – Observers / feedback providers (3 matching observations escalate issues).  
+- **Tier-4** – Unsynced public layer.
+
+Responsibility increases with tier.
+
+---
+
+## Core Rules
+
+- **Proof before merit**  
+- **Tier-1 requires 3× Tier-1337 recommendations**  
+- **Tier-1 may promote Tier-2 (+1 merit)**  
+- Tier-1337 defines standards; Tier-∞ originates them  
+- All decisions must respect PrimeSL
+
+---
+
+## Merit & Reciprocity
+
+**Merit** = reputation for real contributions:
+- solving problems,
+- creating value,
+- helping others,
+- delivering consistent results.
+
+A Tier-1337 member can be removed with **3 internal votes**;  
+Tier-∞ may add/remove 1337 at any time.
+
+---
+
+## Task Flow
+
+- Tier-2 may assign tasks to Tier-1 (AI-assisted triage).  
+- Tier-1 delegates downward.  
+- Tier-1337 ensures alignment with the standard.
+
+---
+
+## ABS & FreeMarket
+
+ABS: read-only abstraction layer that ranks people by skill, trust and recent impact.  
+FreeMarket: matches the right people to the right tasks and makes real performance visible.
+
+---
+
+## MaxROI Metrics
+
+- financial_yield  
+- wellbeing_yield  
+- environmental_yield  
+- customer_satisfaction  
+
+Scaling is optional; one-person structures are fully valid.
+
+---
 
 ## Repository Layout
-| Path | Purpose |
-| --- | --- |
-| `spec/` | Shell-style source of the AIGM core rules and tier definitions. |
-| `versions/` | Versioned delta scripts describing notable changes release by release. |
-| `policy/` | Security layer stubs (USL/HSL) that accompany the core spec. |
-| `abs/` | ABS definitions, such as the read-only Free Markets abstraction. |
-| `standards/` | Supplemental measurable standards (for example, MaxROI metrics). |
-| `docs/` | Human-readable guides for contributors, security, and publishing. |
-| `examples/` | Minimal adoption examples and other reference implementations. |
 
-## Getting Started
-1. Review the canonical spec in `spec/core.aigm.sh` to understand governance tiers
-   and rule expectations.
-2. Check `versions/` for delta scripts that call out the changes introduced in
-   the current release.
-3. Read `docs/CONTRIBUTING.md` for contribution guidelines and `docs/SECURITY.md`
-   for the disclosure policy.
-4. When you are ready to share the repository, follow the workflow in
-   `docs/PUBLISHING.md` to publish the scaffold to GitHub.
+- `spec/` – Core shell-style rules  
+- `versions/` – Versioned deltas  
+- `policy/` – USL/HSL  
+- `abs/` – Abstractions (FreeMarket)  
+- `standards/` – PrimeSL, AIGM Core, MaxROI  
+- `docs/` – Human-readable docs  
+- `examples/` – Implementation examples
 
-## Feedback and Extensions
-Contributors are encouraged to submit proposals that:
-- Keep the shell-style specification authoritative within `spec/`.
-- Reference the relevant version delta when modifying core rules.
-- Provide human-readable context in `docs/` for any new capability.
-
-For clarifications or improvements, open an issue or submit a pull request with
-clear references to the relevant tiers, policies, or ABS definitions.
-
+---
