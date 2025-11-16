@@ -1,3 +1,31 @@
+AIGM – Human-Friendly Introduction
+
+AIGM begins with human values, not structure.  
+This solves the biggest adoption risk: if people feel the system is too technical or rigid,
+they reject it before they understand it.
+
+AIGM starts with:
+- Joy
+- Freedom
+- Truth
+- Simple, practical benefits for normal people
+
+Only after these come:
+- the tier system,
+- the structure,
+- the governance rules.
+
+This order makes AIGM beginner-friendly and reduces fear of “complex systems”.
+Clarity + joy = acceptance. Fear = rejection.
+
+The Copilot tests revealed an important insight:
+If an AI without context can misinterpret the repo,
+humans without context will absolutely misinterpret it.
+Therefore AIGM must provide clear onboarding FIRST.
+
+This introduction is Layer 0 of AIGM documentation.
+Layer 1 (simple structure) and deeper layers follow below.
+
 # AIGM Standard
 
 A lightweight, human-readable governance and collaboration model
