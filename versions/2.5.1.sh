@@ -11,10 +11,11 @@ No breaking changes to existing shell specs.
 "
 
 AIGM_VERSION_CHANGES=(
-  "Added beginner-first onboarding strategy (Layer 0: values, Layer 1: simple structure)."
+  "Added beginner-first onboarding strategy (Layer 0: values and benefits, Layer 1: simple structure)."
   "Updated AIGM core spec to 2.5.1 with identity_core, cli_core, onboarding_layer, and joy_module."
-  "Documented lessons learned from Copilot misinterpretations; onboarding declared mandatory."
-  "Confirmed compatibility with existing 2.4.x style specs; previous implementations remain valid."
+  "Documented lessons learned from Copilot misinterpretations; onboarding declared mandatory for new users."
+  "Confirmed compatibility with existing 2.4.x style specs; previous implementations remain valid without code changes."
+  "Added CLI core overview and public command documentation (docs/cli_core.md and docs/cli_commands.md)."
 )
 
 AIGM_VERSION_DOCS_REFERENCES=(
