@@ -1,3 +1,20 @@
+AIGM in 30 Seconds (Human-Friendly Intro)
+
+AIGM helps humans and AI collaborate with maximum clarity and minimum chaos.
+It is built on three simple ideas:
+
+1. Truth – work with reality, not politics.
+2. Freedom – participation is voluntary; no pressure, no fear.
+3. Joy – people create best when they feel good.
+
+AIGM gives:
+- clearer roles
+- fair recognition (merit)
+- safer teamwork
+- less drama and confusion
+
+This is Layer 0 of AIGM: a simple, human explanation before any structure or rules.
+
 AIGM – Human-Friendly Introduction
 
 AIGM begins with human values, not structure.  

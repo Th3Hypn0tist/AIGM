@@ -1,3 +1,16 @@
+## 2.5.2-alpha – Full Documentation and Identity Expansion
+
+- Added permanent Identity Core.
+- Added Joy Module, Freedom Protocol, Badge System.
+- Added Tier-1337 Governance doc.
+- Added AIGM Tools overview.
+- Added Beginner Entry Layer (Layer 0 & 1).
+- Added 30-second human-friendly intro to README.
+- Updated core component list in aigm_core.sh.
+- Foundation for 2.5.2 stable release.
+
+----------------------------------------------------
+
 ## 2.5.1 – Beginner-Friendly Onboarding Release
 
 - Introduced a beginner-first documentation strategy:

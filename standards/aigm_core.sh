@@ -25,19 +25,22 @@ AIGM_CORE_NON_GOALS=(
 
 # Core components
 AIGM_CORE_COMPONENTS=(
-  tier_hierarchy       # Tier-∞, 1337, 1, 2, 3, 4
-  merit_system         # merit as outcome-based reputation
-  reciprocity_1337     # internal discipline for Tier-1337
-  task_flow            # how tasks move between tiers
-  abs_freemarket       # abstraction and allocation layers
-  usl_layer            # identity and access security
-  hsl_layer            # human safety and duty of care
-  primesl_layer        # primary value standard: truth, freedom, respect
-  maxroi_metrics       # financial, wellbeing, environmental, customer value
-  identity_core        # strict but human-friendly identity layer
-  cli_core             # AIGM command interface and tools
-  onboarding_layer     # Layer 0 and Layer 1 documentation strategy
-  joy_module           # joy as fuel for creation and collaboration
+  tier_hierarchy
+  merit_system
+  reciprocity_1337
+  task_flow
+  abs_layer
+  free_market
+  usl_layer
+  hsl_layer
+  primesl_layer
+  identity_core
+  maxroi_metrics
+  cli_core
+  onboarding_layer
+  joy_module
+  badges_module
+  freedom_protocol
 )
 
 # Invariants (must always hold)
