@@ -9,13 +9,14 @@ and README 30-second intro. Extends core spec for complete inclusion.
 "
 
 AIGM_VERSION_CHANGES=(
-  "Added permanent Identity Core doc."
-  "Added Joy Module doc."
-  "Added Freedom Protocol doc."
-  "Added Badge System doc."
-  "Added Tier-1337 governance boundaries doc."
-  "Added AIGM Tools overview doc."
-  "Added Beginner Entry Layer doc (Layer 0 & Layer 1)."
-  "Updated README with 30-second human-friendly intro."
-  "Updated aigm_core.sh to include all missing components."
+  "Added permanent Identity Core documentation."
+  "Added Joy Module documentation."
+  "Added Freedom Protocol documentation."
+  "Added Badge System documentation."
+  "Added Tier-1337 Governance documentation."
+  "Added AIGM Tools overview documentation."
+  "Added Beginner Entry Layer documentation (Layer 0 & Layer 1)."
+  "Added human-friendly 30-second introduction to README."
+  "Updated aigm_core.sh component list."
+  "Corrected CLI documentation: lowercase commands, clean English, and command-description separators."
 )
