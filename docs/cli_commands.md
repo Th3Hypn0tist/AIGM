@@ -1,66 +1,64 @@
-AIGM CLI Commands – Human-Friendly List
+AIGM CLI Commands – Clean, Unified, English Version
 
-This document lists the main CLI commands in groups.
-Exact implementation details can vary; the intent of each command must remain the same.
+This document describes the official AIGM CLI commands.
+All commands use POSIX-style lowercase syntax.
+Each entry uses the format:
 
-Core information:
-- aigm help
-  Shows a short help message and lists main command groups.
+command : explanation
 
-- aigm about
-  Shows a summary of what AIGM is and what version is running.
+----------------------------------------------------
+Core Information
+----------------------------------------------------
 
-- aigm version
-  Shows the current AIGM spec version (for example 2.5.1).
+aigm help : list main commands  
+aigm about : show a short summary of AIGM  
+aigm version : show the current AIGM version  
 
-Scans and profiles:
-- aigm scan competence <subject>
-  High-level competence scan for a person, team, or system.
+----------------------------------------------------
+Scans & Profiles
+----------------------------------------------------
 
-- aigm scan merit <subject>
-  Shows merit indicators and history for the subject.
+aigm scan competence <subject> : run a competence scan  
+aigm scan merit <subject> : show merit level and history  
+aigm scan tier <subject> : show tier and its rationale  
+aigm trust profile <subject> : show trust, repeatability, and stability signals  
 
-- aigm scan tier <subject>
-  Shows current tier and rationale if available.
+----------------------------------------------------
+Feedback
+----------------------------------------------------
 
-- aigm trust profile <subject>
-  Summarises trust-related signals (stability, repeatability, integrity).
+aigm feedback add : submit structured feedback  
+aigm feedback view <subject> : view all feedback for a subject  
 
-Feedback and projects:
-- aigm feedback add
-  Records feedback (positive or negative) in a structured way.
+----------------------------------------------------
+Projects & Matching
+----------------------------------------------------
 
-- aigm feedback view <subject>
-  Shows feedback associated with a person, team, or project.
+aigm project match <role-or-skill> : suggest suitable contributors based on FreeMarket  
+aigm project list : list all active projects  
 
-- aigm project match <role or skill>
-  Suggests suitable people or teams based on tier and merit (via FreeMarket).
+----------------------------------------------------
+Docs & Explanations
+----------------------------------------------------
 
-- aigm project list
-  Shows active projects and basic metadata.
+aigm docs list : list all available documentation topics  
+aigm docs view <topic> : open a specific documentation page  
+aigm explain <term> : give a human-friendly explanation of a term  
 
-Docs and explanations:
-- aigm docs list
-  Lists available documentation topics.
+----------------------------------------------------
+Special Tools
+----------------------------------------------------
 
-- aigm docs view <topic>
-  Shows a specific documentation page (for example “onboarding”, “tiers”, “merit”).
+Q <question> : ask a temporary question; the answer is discarded afterward  
+USAGE : run a usage analysis (kanalyysi)  
+aigm translate <lang> : show a small doc snippet or explanation in the given language, if available  
 
-- aigm explain <term>
-  Gives a short, beginner-friendly explanation of an AIGM term.
+----------------------------------------------------
 
-Special tools:
-- Q <question>
-  Asks a temporary, context-specific question.
-  The answer can be used now and then forgotten; it does not change the standard.
+These commands must always:
+- respect PrimeSL  
+- never override human decisions  
+- never perform hidden actions  
+- remain predictable, transparent, and beginner-friendly  
 
-- USAGE
-  Triggers a usage analysis (kanalyysi) to see how AIGM tools and processes are being used.
-
-- aigm translate <lang>
-  Shows a short explanation or doc snippet in a given language if available.
-
-Notes:
-- Implementations may provide more commands, but these should remain the core set.
-- Implementations must respect PrimeSL and AIGM Core invariants.
-- The CLI must never silently override human decisions.
+----------------------------------------------------
