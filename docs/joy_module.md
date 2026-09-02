@@ -1,23 +1,22 @@
 AIGM Joy Module – The Emotional Fuel Layer
 
-Joy is one of AIGM’s core components.
-It is not decoration; it is functional.
+Joy is one of AIGM’s human-facing values.
+It is not a separate technical enforcement layer.
 
 Purpose:
-- Joy increases creativity and problem-solving capacity.
-- Joy reduces conflict and defensive behavior.
-- Joy improves long-term engagement and collaboration.
+- encourage creativity and problem-solving capacity
+- reduce unnecessary conflict and defensive behavior
+- support long-term engagement and collaboration
 
 Joy in AIGM:
-- Systems must not produce fear or confusion.
-- Onboarding must feel welcoming, not technical or bureaucratic.
-- People must feel autonomy and safety (PrimeSL-aligned).
+- onboarding should avoid unnecessary fear or confusion
+- people should retain autonomy and safety
+- human-facing guidance should remain aligned with Truth, Freedom and Joy
 
-Joy is measured indirectly via:
+Joy may be observed indirectly through signals such as:
 - retention
 - participation willingness
 - project flow quality
 - reduction in escalation events
 
-Without joy, governance collapses into fear-driven behavior.
-With joy, teams scale effortlessly.
+Normative conformance requirements are defined in AIGM Core and the referenced normative standards, not in this document.
