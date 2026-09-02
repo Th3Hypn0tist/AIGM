@@ -1,6 +1,6 @@
 # AIGM Technical Invariants – shell spec
 
-AIGM_TECHNICAL_INVARIANTS_VERSION="3.0.0-alpha.1"
+AIGM_TECHNICAL_INVARIANTS_VERSION="3.0.0-alpha.2"
 AIGM_TECHNICAL_INVARIANTS_STATUS="draft"
 
 # Scope
@@ -9,6 +9,9 @@ AIGM_TECHNICAL_INVARIANTS_STATUS="draft"
 # Implementation-specific names, APIs and storage layouts are intentionally excluded.
 
 AIGM_TECHNICAL_INVARIANTS=(
+  implementation_freedom
+  mechanism_neutrality
+
   secure_by_limitations
   compliance_scope_is_explicit
   compliance_is_machine_checkable
@@ -53,6 +56,9 @@ AIGM_TECHNICAL_INVARIANTS=(
 )
 
 # Normative meaning
+AIGM_TECHNICAL_RULE_implementation_freedom="AIGM defines required invariants, observable behavior and conformance conditions, not a mandatory implementation architecture. Any implementation MAY use any architecture or mechanism if it demonstrably preserves every applicable AIGM invariant."
+AIGM_TECHNICAL_RULE_mechanism_neutrality="AIGM MUST NOT require a particular runtime, programming language, storage model, protocol, schema format, framework, operating system, database, network topology or architectural pattern unless an explicitly applicable domain standard requires that mechanism for that domain."
+
 AIGM_TECHNICAL_RULE_secure_by_limitations="A conforming system MUST define the limits inside which its guarantees hold. AIGM does not require privileged misuse, deliberate bypass or physical compromise to be technically impossible; it requires compliant operation to remain bounded, inspectable and distinguishable from contract violation."
 
 AIGM_TECHNICAL_RULE_compliance_scope_is_explicit="Every security, validation or conformance claim MUST state the scope and assumptions under which the claim is valid."
@@ -97,4 +103,4 @@ AIGM_TECHNICAL_RULE_conflicts_must_be_explicit_not_silently_resolved="Conflictin
 AIGM_TECHNICAL_RULE_deterministic_round_trip_must_preserve_semantics="A lossless supported representation round trip MUST preserve the canonical semantic meaning of the artifact."
 
 # Boundary rule
-AIGM_TECHNICAL_IMPLEMENTATION_BOUNDARY="AIGM defines these invariants. Implementations MAY choose different runtimes, languages, storage systems, schemas, interfaces and enforcement mechanisms, but a claimed conforming implementation MUST preserve the normative behavior of every applicable invariant."
+AIGM_TECHNICAL_IMPLEMENTATION_BOUNDARY="AIGM defines invariants and conformance semantics. Implementations are free to choose their own mechanisms. A claimed conforming implementation MUST preserve the normative behavior of every applicable invariant, regardless of implementation method."
