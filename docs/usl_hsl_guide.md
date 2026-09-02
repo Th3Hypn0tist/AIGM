@@ -1,16 +1,14 @@
-USL & HSL – Security Layers
+USL & HSL – Legacy Security Layer Notes
 
-USL (Universal Security Layer):
-- identity
-- access
-- audit
-- “Who are you and what can you do?”
+USL and HSL are preserved as historical pre-3.0 concepts.
+They are non-normative in AIGM 3.0 and are not required implementation layers.
 
-HSL (Human Security Layer):
-- humane safeguards
-- safety protocols
-- “Is this safe for humans involved?”
+Historical intent:
+- USL: identity, access and audit-oriented controls
+- HSL: humane safeguards and safety protocols
 
-Together:
-USL protects data.
-HSL protects people.
+AIGM 3.0 replaces these architecture-specific layer assumptions with implementation-neutral normative invariants, primarily in:
+- standards/aigm_authority.sh
+- standards/aigm_safety.sh
+
+Implementations may use USL/HSL-like layers if desired, but AIGM conformance depends on preserving the applicable invariants rather than adopting these names or structures.
