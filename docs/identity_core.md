@@ -25,9 +25,9 @@ Company profile:
 QR Integration:
 Each identity may have an optional QR linking to merit, tier, trust, and FreeMarket view.
 
-PrimeSL rules enforced:
+Human-facing values:
 - Truth (identity cannot mislead)
 - Freedom (identity must be voluntarily chosen)
-- Respect (identity cannot be weaponized)
+- Joy (identity must not be weaponized against wellbeing)
 
 The Identity Core underpins FreeMarket, ABS analytics, Merit, Tier logic, and long-term traceability.
