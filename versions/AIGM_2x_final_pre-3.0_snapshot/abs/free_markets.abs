@@ -1,0 +1,4 @@
+# ABS: Free Markets (read-only abstraction)
+reads: [aigm_status, merit_ledger]
+writes: []
+ranking: merit_points, verified_skill, recent_impact
