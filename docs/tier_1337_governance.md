@@ -1,23 +1,19 @@
 Tier-1337 Governance – Functional Boundary
 
 Tier-1337 responsibilities:
-- Define standards.
-- Maintain structure.
-- Approve Tier-1 promotions (3 approvals).
-- Remove a Tier-1337 member (3 votes).
-- Ensure full PrimeSL compliance.
+- define and maintain domain standards
+- define domain certification requirements
+- steward domain-standard quality and coherence
+- perform direct validation or certification only as an exceptional domain-governance action
+- comply with applicable AIGM Core and governance invariants
 
 Tier-1337 does NOT:
-- audit
-- evaluate companies
-- assign jobs
-- act as a ruling council
-- override FreeMarket
-- enforce compliance in the market
+- gain universal command authority from tier status
+- control unrelated domain content
+- grant itself operational authority through certification
+- override applicable AIGM invariants
 
-Tier-1337 members:
-- may run normal businesses as Tier-1 operators
-- have no special market privileges
+Tier-1337 members may participate in implementation work, but their Tier-1337 status does not create special operational privileges outside explicitly granted authority.
 
 Purpose:
-Discipline without centralization.
+Competence-based stewardship without a power elite.
