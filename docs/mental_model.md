@@ -8,4 +8,4 @@ Principles:
 - structure over personalities
 
 Default question:
-“Does this respect PrimeSL and improve clarity?”
+“Does this respect Truth, Freedom and Joy, and improve clarity?”
