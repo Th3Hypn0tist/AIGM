@@ -1,9 +1,19 @@
 # AIGM Core – meta-definition (shell spec)
 
-AIGM_CORE_VERSION="3.0.0-alpha.1"
+AIGM_CORE_VERSION="3.0.0-alpha.2"
 
 # Purpose: why AIGM exists
 AIGM_CORE_PURPOSE="Make collaborative problem-solving efficient, fair, human-friendly, self-correcting, and structurally safe without prescribing a mandatory implementation architecture."
+
+# Human-facing values
+# These are orientation values for people reading and using AIGM.
+# They do not form a separate technical layer and do not replace normative invariants.
+AIGM_HUMAN_VALUES=(
+  truth
+  freedom
+  joy
+)
+AIGM_HUMAN_VALUES_ROLE="Human-facing orientation values, not a separate normative architecture layer."
 
 # Design goals
 AIGM_CORE_GOALS=(
@@ -28,11 +38,11 @@ AIGM_CORE_NON_GOALS=(
   mandatory_storage_model
   mandatory_protocol_stack
   implementation_specific_standard
+  separate_values_enforcement_layer
 )
 
 # Core components
 AIGM_CORE_COMPONENTS=(
-  primesl_layer
   tier_hierarchy
   competence_and_merit
   validation_and_promotion
@@ -85,5 +95,6 @@ AIGM_TIER1_ROLE="Tier-1 performs normal validation and certification against the
 # Promotion rule
 AIGM_PROMOTION_RULE="Except where a non-promotable origin role is explicitly defined, promotion to a target tier requires three independently validated approvals from actors already holding that target tier, together with satisfaction of the target tier requirements."
 
-# Technical standard composition
+# Standard composition
 AIGM_TECHNICAL_INVARIANTS_SPEC="standards/aigm_technical_invariants.sh"
+AIGM_GOVERNANCE_SPEC="standards/aigm_governance.sh"
