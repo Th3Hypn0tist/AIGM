@@ -1,33 +1,32 @@
 AIGM Tier Handbook
 
-Tier-∞ – Origin / Creator:
-- sets original standard
-- does not run daily ops
-- may add/remove Tier-1337
+Tier-∞ – Origin:
+- identifies potential Tier-1337 actors
+- protects AIGM meta-standard integrity
+- does not control domain-standard content unless it violates an applicable AIGM invariant
 
-Tier-1337 – Standard Definers:
-- maintain AIGM rules
-- approve Tier-1 (3 approvals)
-- remove 1337 peers (3 votes)
-- enforce PrimeSL
+Tier-1337 – Domain Standard Definers:
+- define and maintain domain standards
+- define domain certification requirements
+- perform direct validation or certification only exceptionally
 
-Tier-1 – Lead Executors:
-- own large problems
-- delegate to Tier-2
-- require 3×1337 approvals
-- must listen to lower tiers
+Tier-1 – Validators / Certifiers and Lead Implementers:
+- perform normal validation and certification against applicable Tier-1337 requirements
+- may lead implementation work within their competence domain
 
-Tier-2 – Practical Solvers:
-- execute tasks
-- can escalate issues to Tier-1
-- main source of merit generation
+Tier-2 – Practical Solvers / Builders:
+- execute practical work
+- produce evidence and contributions
 
-Tier-3 – Observers:
-- report issues
-- three matching reports trigger escalation
+Tier-3 – Observers / Feedback Contributors:
+- provide observations and feedback
+- contribute evidence that may support validation and improvement
 
 Tier-4 – Unsynced Public Layer:
-- not aligned yet
-- can join higher tiers via contribution
+- outside validated AIGM tier status
+- may enter promotable tiers by satisfying the applicable requirements and general three-validation rule
 
-Simple rule: Higher tiers = higher responsibility.
+Simple rule: Higher tier means stronger validated competence and greater responsibility, not universal command authority.
+
+Promotion rule:
+Except for the non-promotable Origin role, promotion to a target tier requires three approvals from actors already holding that target tier together with satisfaction of the target-tier requirements.
