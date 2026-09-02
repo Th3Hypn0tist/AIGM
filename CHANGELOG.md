@@ -1,3 +1,18 @@
+## 3.0.0-alpha – Technical Invariants, SSOT and Governance Coherence
+
+- Split the normative technical standard into focused authority, safety, canonical semantics, validation/conformance, and versioning/provenance specifications.
+- Converted `standards/aigm_technical_invariants.sh` into a composition/index layer to avoid duplicated normative truth.
+- Added explicit Single Source of Truth (SSOT) semantics and conflict handling for competing authoritative claims.
+- Removed PrimeSL as a separate standard layer; Truth, Freedom and Joy remain human-facing values.
+- Refactored AIGM Core to compose governance and technical standards by reference instead of duplicating their normative semantics.
+- Tightened Tier governance: Origin finds potential Tier-1337 actors and protects AIGM integrity; Tier-1337 defines domain standards and certification requirements; Tier-1 performs normal validation and certification.
+- Generalized the three-validation promotion rule across promotable tiers.
+- Marked USL and HSL as legacy, non-normative pre-3.0 concepts rather than required AIGM architecture layers.
+- Added an exact Synchronization Manifest that pins the normative standard composition and prohibits moving-latest substitution during validation.
+- Archived the complete pre-3.0 repository state under `versions/AIGM_2x_final_pre-3.0_snapshot/`.
+
+----------------------------------------------------
+
 ## 2.5.2-alpha – Full Documentation and Identity Expansion
 
 - Added permanent Identity Core.
