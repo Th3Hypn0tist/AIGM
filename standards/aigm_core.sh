@@ -1,13 +1,13 @@
 # AIGM Core – meta-definition (shell spec)
 
-AIGM_CORE_VERSION="3.0.0-alpha.2"
+AIGM_CORE_VERSION="3.0.0-alpha.3"
 
 # Purpose: why AIGM exists
 AIGM_CORE_PURPOSE="Make collaborative problem-solving efficient, fair, human-friendly, self-correcting, and structurally safe without prescribing a mandatory implementation architecture."
 
 # Human-facing values
-# These are orientation values for people reading and using AIGM.
-# They do not form a separate technical layer and do not replace normative invariants.
+# These orient how AIGM is explained and used by people.
+# They are not a separate technical enforcement layer and do not replace normative invariants.
 AIGM_HUMAN_VALUES=(
   truth
   freedom
@@ -26,9 +26,10 @@ AIGM_CORE_GOALS=(
   implementation_freedom
   mechanism_neutrality
   machine_checkable_conformance
+  single_source_of_truth
 )
 
-# Non-goals (explicitly NOT trying to be)
+# Non-goals
 AIGM_CORE_NON_GOALS=(
   political_party
   religious_dogma
@@ -58,43 +59,29 @@ AIGM_CORE_COMPONENTS=(
   badges_module
 )
 
-# Core invariants
+# Invariants owned directly by AIGM Core.
+# Invariants owned by governance or technical standards MUST NOT be redefined here.
 AIGM_CORE_INVARIANTS=(
   truth_before_convenience
   freedom_of_consent
   competence_over_titles
-  proof_before_merit
-  tier_is_competence_not_general_power
-  higher_tier_increases_responsibility_not_universal_authority
   transparent_promotion_paths
-  general_three_validation_promotion_rule
-  origin_protects_aigm_integrity_not_domain_content
-  tier1337_owns_domain_standards_and_certification_requirements
-  tier1_performs_normal_validation
-  implementation_freedom
-  mechanism_neutrality
   technical_invariants_are_normative
   documented_version_deltas
 )
 
-# Implementation boundary
-AIGM_IMPLEMENTATION_FREEDOM="AIGM defines invariants, required behavior and conformance conditions. Implementations MAY realize them using any architecture, runtime, language, storage model, protocol, schema format or enforcement mechanism that preserves every applicable invariant."
-AIGM_MECHANISM_NEUTRALITY="No implementation mechanism is required by AIGM Core unless an explicitly applicable domain standard makes that mechanism a domain requirement."
-
-# Tier semantics
-AIGM_TIER_SEMANTIC="Tier represents validated competence and responsibility. Tier does not create universal command authority."
-AIGM_ELITE_SEMANTIC="AIGM recognizes an elite of competence, not an elite of power."
-
-# Origin boundary
-AIGM_ORIGIN_ROLE="Origin identifies and recognizes Tier-1337 actors and protects the integrity of the AIGM standard. Origin MUST NOT control domain-standard content unless that content violates an applicable AIGM invariant."
-
-# Domain standard boundary
-AIGM_TIER1337_ROLE="Tier-1337 defines and maintains domain standards and domain certification requirements. Tier-1337 MAY perform direct validation or certification only as an exceptional domain-governance action, not as the normal validation path."
-AIGM_TIER1_ROLE="Tier-1 performs normal validation and certification against the applicable requirements defined by Tier-1337."
-
-# Promotion rule
-AIGM_PROMOTION_RULE="Except where a non-promotable origin role is explicitly defined, promotion to a target tier requires three independently validated approvals from actors already holding that target tier, together with satisfaction of the target tier requirements."
+AIGM_CORE_RULE_truth_before_convenience="AIGM claims and decisions MUST prefer demonstrable reality and evidence over convenience, status, politics or desired narrative."
+AIGM_CORE_RULE_freedom_of_consent="Participation MUST remain voluntary. Consent MUST NOT be inferred from silence, dependency, rank or inability to exit."
+AIGM_CORE_RULE_competence_over_titles="Competence claims MUST be grounded in validated evidence rather than organizational title or asserted status."
+AIGM_CORE_RULE_transparent_promotion_paths="Promotion requirements MUST be explicit and inspectable before a promotion claim is evaluated."
+AIGM_CORE_RULE_technical_invariants_are_normative="Applicable technical invariants referenced by this Core are normative requirements for AIGM conformance."
+AIGM_CORE_RULE_documented_version_deltas="Normative semantic changes MUST be documented as explicit version deltas and MUST NOT silently rewrite historical meaning."
 
 # Standard composition
-AIGM_TECHNICAL_INVARIANTS_SPEC="standards/aigm_technical_invariants.sh"
+# These referenced standards are the authoritative owners of their respective semantics.
 AIGM_GOVERNANCE_SPEC="standards/aigm_governance.sh"
+AIGM_TECHNICAL_INVARIANTS_SPEC="standards/aigm_technical_invariants.sh"
+AIGM_SYNCHRONIZATION_MANIFEST="manifest.md"
+
+# Composition boundary
+AIGM_CORE_COMPOSITION_RULE="AIGM Core composes authoritative standard parts by reference. It MUST NOT duplicate normative rule text owned by a referenced standard part."
