@@ -1,14 +1,30 @@
-# AIGM – Artificial Intelligence Governance Model
-**Status:** Emerging Open Standard (Public Iteration Phase 1)
+# AIGM Synchronization Manifest
 
-The AIGM is an open, iterative governance model for AI-human collaboration.
-It defines explicit operational tiers (∞, 1337, 1–4) and synchronization principles
-for ethical, modular, and verifiable AI deployment.
+AIGM_STANDARD_VERSION="3.0.0-alpha"
+AIGM_STANDARD_STATUS="draft"
 
-Unlike existing frameworks (OECD, NIST, ISO, EU AI Act),
-AIGM functions as a meta-standard — designed to integrate,
-not compete. It provides a unifying resonance layer
-across all governance systems.
+# Purpose
+# This manifest pins the exact normative composition of this AIGM standard state.
+# Validation MUST NOT resolve normative dependencies through moving latest/current aliases.
 
-AIGM is currently under public review and live development on GitHub.
-Repository: https://github.com/Th3Hypn0tist/AIGM
+AIGM_NORMATIVE_COMPOSITION=(
+  "standards/aigm_core.sh@3.0.0-alpha.3"
+  "standards/aigm_governance.sh@3.0.0-alpha.2"
+  "standards/aigm_technical_invariants.sh@3.0.0-alpha.3"
+  "standards/aigm_authority.sh@3.0.0-alpha.1"
+  "standards/aigm_safety.sh@3.0.0-alpha.1"
+  "standards/aigm_canonical_semantics.sh@3.0.0-alpha.2"
+  "standards/aigm_validation_conformance.sh@3.0.0-alpha.1"
+  "standards/aigm_versioning_provenance.sh@3.0.0-alpha.1"
+)
+
+AIGM_SYNC_RULE_exact_composition="A validation identity MUST resolve to this exact declared normative composition. Implementations MUST NOT silently substitute newer, older or otherwise different standard-part versions."
+AIGM_SYNC_RULE_transitive_closure="The applicable validation identity includes every normative dependency that can change interpretation or evaluation."
+AIGM_SYNC_RULE_non_normative_exclusion="Documentation, examples, legacy policy stubs, projections and implementation guides are non-authoritative unless explicitly promoted into the normative composition."
+AIGM_SYNC_RULE_migration_required="Changing the normative composition creates a new validation context and requires an explicit version delta or migration relationship."
+
+# Human-facing values
+AIGM_HUMAN_VALUES=(truth freedom joy)
+
+# Non-normative historical material retained in the repository includes policy/USL.md and policy/HSL.md.
+# Preserved pre-3.0 state: versions/AIGM_2x_final_pre-3.0_snapshot/
